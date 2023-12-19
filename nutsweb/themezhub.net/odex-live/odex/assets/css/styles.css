@@ -5692,7 +5692,11 @@ h4.cart_heading {
     color: #647b9c;
 }
 .single_filter_card h5 a {
-    color:#1ca301;
+    color:#eb4646;
+}
+.logo-pics{
+    width: 315px;
+    aspect-ratio: 315/100;
 }
 .single_filter_card h5 a .accordion-indicator {
     float: right;
@@ -9971,7 +9975,7 @@ color: #eb4646;
   }
   
 .carousel-item {
-    height: 100vh;
+    height: 450px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
