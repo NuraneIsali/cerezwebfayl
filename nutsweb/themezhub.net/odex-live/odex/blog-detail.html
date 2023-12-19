@@ -11,7 +11,8 @@
 		 
         <!-- Custom CSS -->
         <link href="assets/css/styles.css" rel="stylesheet">
-		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       
     </head>
 	
     <body class="grocery-theme light">
@@ -42,28 +43,25 @@
 									<li class="dropdown dropdown-currency hidden-xs hidden-sm">
 										<a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Eng<i class="ml-1 fa fa-angle-down"></i></a>
 										<ul class="dropdown-menu mlix-wrap">
-											<li><a href="javascript:void(0);">English</a></li>
-											<li><a href="javascript:void(0);">French</a></li>
-											<li><a href="javascript:void(0);">Spainish</a></li>
-											<li><a href="javascript:void(0);">Italy</a></li>
+											<li><a href="javascript:void(0);">AZ</a></li>
+											<li><a href="javascript:void(0);">RU</a></li>
 										</ul>
 									</li>
 									<li class="dropdown dropdown-currency hidden-xs hidden-sm">
-										<a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">USD<i class="ml-1 fa fa-angle-down"></i></a>
-										<ul class="dropdown-menu mlix-wrap">
-											<li><a href="javascript:void(0);">EUR</a></li>
-											<li><a href="javascript:void(0);">AUD</a></li>
-											<li><a href="javascript:void(0);">GBP</a></li>
-										</ul>
+										
 									</li>
 								</ul>
+								
 							</div>
 							<div class="col-lg-6 col-md-6 col-sm-6 col-8">
 								<div class="topbar_menu">
-									<ul>
-										<li><a href="order.html"><i class="ti-bag"></i>My Account</a></li>
-										<li><a href="order-tracking.html"><i class="ti-location-pin"></i>Track Order</a></li>
-										<li class="hide-m"><a href="wishlist.html"><i class="ti-heart"></i>Favourites</a></li>
+									<ul class="footer_social_links social">
+										<li><a href="#"><i class="ti-facebook"></i></a></li>
+										<li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+										<li><a href="#"><i class="ti-twitter"></i></a></li>
+										<li><a href="#"><i class="ti-instagram"></i></a></li>
+										<li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
+	
 									</ul>
 								</div>
 							</div>
@@ -89,15 +87,6 @@
 											<a class="cart_box" data-toggle="collapse" href="#mySearch" role="button" aria-expanded="false" aria-controls="mySearch"><i class="ti-search"></i></a>
 										</div>
 									</div>
-									<div class="single_shop_cart">
-										<div class="ss_cart_left">
-											<a href="#"  onclick="openRightMenu()" class="cart_box"><span class="qut_counter">0</span><i class="ti-shopping-cart"></i></a>
-										</div>
-										<div class="ss_cart_content">
-											<strong>My Cart</strong>
-											<span>$0.00</span>
-										</div>
-									</div>
 								</div>
 								
 								<!-- Show on Desktop -->
@@ -107,24 +96,15 @@
 											<a href="javascript:void(0)" class="cart_box"><i class="lni lni-phone"></i></a>
 										</div>
 										<div class="ss_cart_content">
-											<strong>Call Us:</strong>
+											<strong>Bizə Zəng:</strong>
 											<span>+91 855 606 8402</span>
-										</div>
-									</div>
-									<div class="single_shop_cart">
-										<div class="ss_cart_left">
-											<a href="#" onclick="openRightMenu()" class="cart_box"><span class="qut_counter">0</span><i class="ti-shopping-cart"></i></a>
-										</div>
-										<div class="ss_cart_content">
-											<strong>My Cart</strong>
-											<span>$0.00</span>
 										</div>
 									</div>
 								</div>
 								
 								<div class="blocks search_blocks d-none d-xl-block d-lg-block">
 									<div class="input-group">
-										<input type="text" class="form-control" placeholder="Search entire store here...">
+										<input type="text" class="form-control" placeholder="Bütün Mağazanı Burada Axtarın..">
 										<div class="input-group-append">
 										<button class="btn search_btn" type="button"><i class="ti-search"></i></button>
 										</div>
@@ -136,7 +116,7 @@
 					<div class="collapse" id="mySearch">
 						<div class="blocks search_blocks">
 							<div class="input-group">
-								<input type="text" class="form-control" placeholder="Search entire store here...">
+								<input type="text" class="form-control" placeholder="Bütün Mağazanı Burada Axtarın..">
 								<div class="input-group-append">
 								<button class="btn search_btn" type="button"><i class="ti-search"></i></button>
 								</div>
@@ -151,7 +131,7 @@
 							<div class="col-lg-3 col-md-4 col-sm-8 col-10">
 								<!-- For Desktop -->
 								<div class="shopby_categories d-none d-xl-block d-lg-block">
-									<a class="shop_category" data-toggle="collapse" href="#myCategories" role="button" aria-expanded="false" aria-controls="myCategories"><i class="ti-menu"></i>Shop By categories</a>
+									<a class="shop_category" data-toggle="collapse" href="#myCategories" role="button" aria-expanded="false" aria-controls="myCategories"><i class="ti-menu"></i>Kateqorilərə görə sırala</a>
 									<div class="collapse" id="myCategories">
 										<div id="cats_menu">
 											<ul>
@@ -235,113 +215,35 @@
 									<div class="nav-header">
 										<div class="nav-toggle"></div>
 									</div>
+									
 									<div class="nav-menus-wrapper" style="transition-property: none;">
 										<ul class="nav-menu">
 										
-											<li class="active"><a href="#">Home<span class="submenu-indicator"></span></a>
-												<ul class="nav-dropdown nav-submenu">
-													<li><a href="#">Grocery<span class="submenu-indicator"></span></a>
-														<ul class="nav-dropdown nav-submenu">
-															<li><a href="grocery.html">Grocery 1</a></li>
-															<li><a href="grocery-2.html">Grocery 2</a></li>
-															<li><a href="grocery-3.html">Grocery 3</a></li>
-														</ul>
-													</li>
-													<li><a href="#">Retail Design<span class="submenu-indicator"></span></a>
-														<ul class="nav-dropdown nav-submenu">
-															<li><a href="woocommerce.html">Woocommerce</a></li>
-															<li><a href="woocommerce-2.html">Woocommerce 2</a></li>
-															<li><a href="beauty.html">Cosmetics</a></li>
-														</ul>
-													</li>
-													<li><a href="organic.html">Organic</a></li>
-													<li><a href="electronics.html">Electronic</a></li>
-													<li><a href="digital.html">Digital</a></li>
-													<li><a href="furniture.html">Furniture</a></li>
-												</ul>
+											<li class="active"><a href="file:///C:/Users/User/Desktop/nutsweb/nutsweb/themezhub.net/odex-live/odex/grocery-4.html">Ana Səhifə<span class="submenu-indicator"></span></a>
+												
 											</li>
 											
-											<li><a href="#">Category<span class="submenu-indicator"></span></a>
-												<ul class="nav-dropdown nav-submenu">
-													<li><a href="#">VARIATIONS 1<span class="submenu-indicator"></span></a>
-														<ul class="nav-dropdown nav-submenu">
-															<li><a href="search-full-width.html">Full Width Banner</a></li>
-															<li><a href="search-list-layout.html">With List Layouts</a></li>
-															<li><a href="4-column.html">4 Column Products</a></li>
-															<li><a href="5-column.html">5 Column Products</a></li>
-															<li><a href="6-column.html">6 Column Products</a></li>
-														</ul>
-													</li>
-													<li><a href="#">VARIATIONS 2<span class="submenu-indicator"></span></a>
-														<ul class="nav-dropdown nav-submenu">
-															<li><a href="grocery.html">Header Style 1</a></li>
-															<li><a href="grocery-2.html">Header Style 2</a></li>
-															<li><a href="grocery-3.html">Header Style 3</a></li>
-															<li><a href="#">7 Columns Products</a></li>
-															<li><a href="#">9 Columns Products</a></li>
-															<li><a href="#">10 Columns Products</a></li>
-														</ul>
-													</li>
-												</ul>
+											<li><a href="file:///C:/Users/User/Desktop/nutsweb/nutsweb/themezhub.net/odex-live/odex/about.html">Haqqımızda<span class="submenu-indicator"></span></a>
+											
 											</li>
 											
-											<li><a href="#">Products<span class="submenu-indicator"></span></a>
+											<li><a href="file:///C:/Users/User/Desktop/nutsweb/nutsweb/themezhub.net/odex-live/odex/search-sidebar.html">Məhsullar<span class="submenu-indicator"></span></a>
 												<ul class="nav-dropdown nav-submenu">
-													<li><a href="#">VARIATIONS 1<span class="submenu-indicator"></span></a>
-														<ul class="nav-dropdown nav-submenu">
-															<li><a href="search-sidebar.html">With Sidebar 1</a></li>
-															<li><a href="search-sidebar-2.html">With Sidebar 2</a></li>
-															<li><a href="search-sidebar-3.html">With Sidebar 3</a></li>
-															<li><a href="search-sidebar-4.html">With Sidebar 4</a></li>
-															<li><a href="search-sidebar-5.html">With Sidebar 5</a></li>
-															<li><a href="search-sidebar-6.html">With Sidebar 6</a></li>
-															<li><a href="search-sidebar-7.html">With Sidebar 7</a></li>
-															<li><a href="search-sidebar-8.html">With Sidebar 8</a></li>
-														</ul>
-													</li>
-													<li><a href="#">VARIATIONS 2<span class="submenu-indicator"></span></a>
-														<ul class="nav-dropdown nav-submenu">
-															<li><a href="detail-1.html">Default Product</a></li>
-															<li><a href="detail-1.html">Default Product 2</a></li>
-															<li><a href="detail-3.html">Grouped products</a></li>
-															<li><a href="detail-4.html">Simple Product</a></li>
-															<li><a href="detail-5.html">Grouped Product</a></li>
-															<li><a href="detail-6.html">Digital Product</a></li>
-															<li><a href="vendor.html">Vendor Detail</a></li>
-														</ul>
-													</li>
-												</ul>
+													<li><a href="blog.html">Çərəzlər</a></li>
+													<li><a href="blog-detail.html">Quru meyvələr</a></li>
+													<li><a href="about.html">Toxumlular</a></li>
+													<li><a href="contact.html">Qurudulmuş</a></li>
+													<li><a href="contact.html">Acı olanlar</a></li>
+													<li><a href="contact.html">Şirin olanlar</a></li>
+												</ul>	
 											</li>
 											
-											<li><a href="#">Shop Pages<span class="submenu-indicator"></span></a>
-												<ul class="nav-dropdown nav-submenu">
-													<li><a href="#">User Dashboard<span class="submenu-indicator"></span></a>
-														<ul class="nav-dropdown nav-submenu">
-															<li><a href="order.html">My Order</a></li>
-															<li><a href="order-history.html">Order History</a></li>
-															<li><a href="order-tracking.html">Order Tracking</a></li>
-															<li><a href="wishlist.html">Wishlist</a></li>
-															<li><a href="account-info.html">Account Settings</a></li>
-															<li><a href="payment-methode.html">Payment Methods</a></li>
-														</ul>
-													</li>
-													<li><a href="add-to-cart.html">Add To Cart</a></li>
-													<li><a href="billing.html">Billing Page</a></li>
-													<li><a href="checkout-complete.html">Checkout Confirmation</a></li>
-													<li><a href="admin-login.html">Admin Login</a></li>
-												</ul>
+											<li><a href="file:///C:/Users/User/Desktop/nutsweb/nutsweb/themezhub.net/odex-live/odex/blog.html">Bloq<span class="submenu-indicator"></span></a>
+												
 											</li>
 											
-											<li><a href="#">Pages<span class="submenu-indicator"></span></a>
-												<ul class="nav-dropdown nav-submenu">
-													<li><a href="blog.html">Blog Page</a></li>
-													<li><a href="blog-detail.html">Blog Detail</a></li>
-													<li><a href="about.html">About Us</a></li>
-													<li><a href="contact.html">Contact</a></li>
-													<li><a href="login-signup.html">Login/SignUp</a></li>
-													<li><a href="faq.html">FAQ's</a></li>
-													<li><a href="404.html">404</a></li>
-												</ul>
+											<li><a href="file:///C:/Users/User/Desktop/nutsweb/nutsweb/themezhub.net/odex-live/odex/contact.html">Bizimlə Əlaqə<span class="submenu-indicator"></span></a>
+											
 											</li>
 											
 										</ul>
@@ -404,15 +306,11 @@
 									
 									<!-- Blog Content -->
 									<div class="full blog-content">
-										<div class="post-meta">By: <a href="#" class="author theme-cl">Daniel Dax</a> | 10 comment-detail </div>
+										<div class="post-meta">17.12.2023</div>
 										<a href="blog-detail.html"><h3>Helping Kids Grow Up Stronger</h3></a>
 										<div class="blog-text">
 											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
 											
-											<blockquote>
-												<p class="p1">I’ve been asked a lot for my view on American health care. Well, ‘it would be a good idea,’ to quote Gandhi.<br>
-												―&nbsp;<span class="authorOrTitle">Paul Farmer</span></p>
-											</blockquote>
 											
 											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
 											<div class="post-meta">Filed Under: <span class="category"><a href="#" class="theme-cl">Technology</a></span></div>
@@ -420,15 +318,7 @@
 										
 										<!-- Blog Share Option -->
 										<div class="no-mrg">
-											<div class="blog-footer-social">
-												<span>Share <i class="fa fa-share-alt"></i></span>
-												<ul class="list-inline social">
-													<li><a href="#"><i class="ti-facebook"></i></a></li>
-													<li><a href="#"><i class="ti-twitter"></i></a></li>
-													<li><a href="#"><i class="ti-linkedin"></i></a></li>
-													<li><a href="#"><i class="ti-pinterest"></i></a></li>
-												</ul>
-											</div>
+											<a href="#" target="_blank" onclick="myga('whatsapp', 'open-2984')"><i style="position: relative; top: 4px;color: white; font-size: 22px;" class="fa-brands fa-whatsapp"></i> whatsapp</a>
 										</div>
 										
 									</div>
@@ -438,82 +328,9 @@
 							</article>
 							
 							<!-- Comment -->
-							<div class="comment-wrap">
-								<div class="comment-detail">      
-									<div class="comment-detail-title">
-										<h4>comment-detail (2)</h4>
-									</div>
-									
-									<ul id="singlecomment-detail" class="comment-detail-list">		
-										<li class="comment" id="comment-56">
-											<div class="comment">
-												<div class="comment__image">
-													<img alt="" src="assets/img/user-3.jpg" class="avatar avatar-75 photo" height="75" width="75">
-												</div>
-												<div class="comment__text">
-													<h5>danny</h5>
-													<span>
-														<em>August 9, 2016</em>
-													</span>
-													<p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.</p>
-									
-												</div>
-												<hr>
-											</div><!--end comment-->
-									
-											<ul class="children">
-												
-												<li class="comment" id="comment-57">
-													<div class="comment">
-														<div class="comment__image">
-															<img alt="" src="assets/img/user-4.jpg" class="avatar avatar-75 photo" height="75" width="75">
-														</div>
-														<div class="comment__text">
-															<h5>danny</h5>
-															<span>
-																<em>August 9, 2016</em>
-															</span>
-															<p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.</p>
-											
-														</div>
-														<hr>
-													</div><!--end comment-->
-											
-												</li><!-- #comment-## -->
-											</ul><!-- .children -->
-										</li><!-- #comment-## -->
-									</ul>
-									
-								</div>
-							</div>
+						
 							
-							<div class="comment-detail-form"> 
-								<div class="section-title2">
-									<h3 id="reply-title" class="comment-reply-title">Write a Comment
-										<small><a rel="nofollow" id="cancel-comment-reply-link" href="#" style="display:none;">Cancel reply</a></small>
-									</h3>
-								</div>
-								
-								<form>
-									<div class="row">
-										<div class="form-group col-md-6 col-sm-6">
-											<input type="text" class="form-control" placeholder="Your Name">
-										</div>
-										
-										<div class="form-group col-md-6 col-sm-6">
-											<input type="email" class="form-control" placeholder="Your Email">
-										</div>
-										
-										<div class="form-group col-md-12 col-sm-12">
-											<textarea class="form-control" placeholder="Comment"></textarea>
-										</div>
-										
-										<div class="col-md-12 col-sm-12">
-											<button class="btn btn-primary" type="submit">submit now</button>
-										</div>
-									</div>
-								</form>
-							</div>
+						
 									
 						</div>
 						
@@ -523,12 +340,12 @@
 								
 								<div class="side-widget">
 									<div class="side-widget-header border-0">
-										<h4><i class="ti-search"></i>Search Here</h4>
+										<h4><i class="ti-search"></i>Burada Axtarın</h4>
 									</div>
 									
 									<div class="side-widget-body p-t-10">
 										<div class="input-group">
-											<input type="text" class="form-control" placeholder="Search…">
+											<input type="text" class="form-control" placeholder="Axtarın…">
 											<span class="input-group-btn">
 												<button type="button" class="btn btn-primary btn-lg">Go</button>
 											</span>
@@ -606,18 +423,18 @@
 								
 								<div class="side-widget">
 									<div class="side-widget-header">
-										<h4><i class="ti-briefcase"></i>Top Categories</h4>
+										<h4><i class="ti-briefcase"></i>Bütün Kateqorilər</h4>
 									</div>
 									<div class="side-widget-body p-t-10 p-b-0">
 										<div class="side-list">
 											<ul class="category-list">
-												<li><a href="#">Business <span>4</span></a></li>
-												<li><a href="#">Shopping <span>7</span></a></li>
-												<li><a href="#">Photography <span>10</span></a></li>
-												<li><a href="#">Intertainment <span>55</span></a></li>
-												<li><a href="#">Education <span>8</span></a></li>
-												<li><a href="#">Travel &amp; Tour <span>17</span></a></li>
-												<li><a href="#">Health &amp; Fitness <span>9</span></a></li>
+												<li><a href="#">Çərəzlər <span></span></a></li>
+												<li><a href="#">Quru Meyvələr<span></span></a></li>
+												<li><a href="#">Toxumlular<span></span></a></li>
+												<li><a href="#">Acı olanlar <span></span></a></li>
+												<li><a href="#">Qurudulmuş <span></span></a></li>
+												<li><a href="#">Şirin  &amp; olanlar <span></span></a></li>
+												<li><a href="#">Sağlıqlı &amp; Qidalar <span></span></a></li>
 											</ul>
 										</div>
 									</div>
@@ -645,7 +462,7 @@
 								</div>
 								<div class="newsletter_box">
 									<div class="input-group">
-										<input type="text" class="form-control" placeholder="Subscribe here...">
+										<input type="text" class="form-control" placeholder="Buradan Abunə Olun...">
 										<div class="input-group-append">
 										<button class="btn search_btn" type="button"><i class="fas fa-arrow-alt-circle-right"></i></button>
 										</div>
@@ -709,22 +526,18 @@
 					<div class="container">
 						<div class="row">
 							
+									
 							<div class="col-lg-4 col-md-4">
 								<div class="footer_widget">
-									<h4 class="extream">Contact us</h4>
-									<p>Let's here all about it! <a href="#" class="theme-cl">Get it touch</a></p>
-									
-									<div class="address_infos">
-										<ul>
-											<li><i class="ti-home theme-cl"></i>#302 Brick Market, Jalsa California<br>United State HQS1130</li>
-											<li><i class="ti-headphone-alt theme-cl"></i>(41) 254 758 4572</li>
-										</ul>
-									</div>
+<img style="width: 200px;" src="assets/img/logo-light.png" alt=""><br> <br>
+
+<span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nobis, sequi aut sunt ea praesentium incidunt aliquam et ducimus illum quidem provident nesciunt dolorum laborum dicta eligendi quod modi recusandae?</span>
+
+
 									
 								</div>
 							</div>
-									
-							<div class="col-lg-2 col-md-2">
+							<div style="margin-left: 90px;" class="col-lg-2 col-md-2">
 								<div class="footer_widget">
 									<h4 class="widget_title">Categories</h4>
 									<ul class="footer-menu">
@@ -736,40 +549,35 @@
 								</div>
 							</div>
 									
-							<div class="col-lg-2 col-md-2">
-								<div class="footer_widget">
-									<h4 class="widget_title">Our Company</h4>
-									<ul class="footer-menu">
-										<li><a href="#">About Us</a></li>
-										<li><a href="#">My company</a></li>
-										<li><a href="#">Our Studio</a></li>
-										<li><a href="#">Nightlife</a></li>
-									</ul>
-								</div>
-							</div>
 							
-							<div class="col-lg-2 col-md-2">
+							<div class="col-lg-4 col-md-4">
 								<div class="footer_widget">
-									<h4 class="widget_title">Latest News</h4>
-									<ul class="footer-menu">
-										<li><a href="#">Offers & Deals</a></li>
-										<li><a href="#">My Account</a></li>
-										<li><a href="#">My Products</a></li>
-										<li><a href="#">Favorites</a></li>
-									</ul>
+									<h4 class="extream">Contact us</h4>
+									<p>Let's here all about it! <a href="#" class="theme-cl">Get it touch</a></p>
+									
+									<div class="address_infos">
+										<ul>
+											<li><i class="ti-home theme-cl"></i>#302 Brick Market, Jalsa California<br>United State HQS1130</li>
+											<li><i class="ti-headphone-alt theme-cl"></i>(41) 254 758 4572</li>
+											<li><i class="fa-solid fa-envelope"></i>khanbuta.group@gmail.com</li>
+										</ul>
+
+									</div>
+									
 								</div>
-							</div>
+							</div><br><br>
 							
-							<div class="col-lg-2 col-md-2">
-								<div class="footer_widget">
-									<h4 class="widget_title">Customer Support</h4>
-									<ul class="footer-menu">
-										<li><a href="#">Conditions</a></li>
-										<li><a href="#">Privacy</a></li>
-										<li><a href="#">Blog</a></li>
-										<li><a href="#">FAQs</a></li>
-									</ul>
-								</div>
+							<div class="col-lg-6 col-md-6 text-right">
+								<ul class="footer_social_links">
+									<li><a href="#"><i class="ti-facebook"></i></a></li>
+									<li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+									<li><a href="#"><i class="ti-twitter"></i></a></li>
+									<li><a href="#"><i class="ti-instagram"></i></a></li>
+									<li><a href="#"><i class="ti-linkedin"></i></a></li>
+									<li><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+									<li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
+
+								</ul>
 							</div>
 							
 						</div>
@@ -781,22 +589,37 @@
 						<div class="row align-items-center">
 							
 							<div class="col-lg-6 col-md-8">
-								<p class="mb-0">Â©Copyright 2020 Odex. Designd By <a href="https://bootstrapdesigns.net/">BootstrapDesigns</a>.</p>
+								<p class="mb-0">©Copyright 2020 Odex. Designd By <a style="color:#eb4646;" href="https://khanbutagroup.az/">KHANBUTAGROUP</a>.</p>
 							</div>
 							
-							<div class="col-lg-6 col-md-6 text-right">
-								<ul class="footer_social_links">
-									<li><a href="#"><i class="ti-facebook"></i></a></li>
-									<li><a href="#"><i class="ti-twitter"></i></a></li>
-									<li><a href="#"><i class="ti-instagram"></i></a></li>
-									<li><a href="#"><i class="ti-linkedin"></i></a></li>
-								</ul>
-							</div>
 							
 						</div>
 					</div>
 				</div>
 			</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 			<!-- ============================ Footer End ================================== -->
 			
 			<!-- cart -->
@@ -1090,6 +913,46 @@
 				document.getElementById("leftMenu").style.display = "none";
 			}
 		</script>
+
+<script>
+    function validateForm() {
+        var yourName = document.getElementById('yourName').value;
+        var yourEmail = document.getElementById('yourEmail').value;
+        var comment = document.getElementById('comment').value;
+
+        var isValid = true;
+
+        // Validate Your Name
+        if (yourName.trim() === '') {
+            document.getElementById('errorYourName').innerText = 'Adınız tələb olunur...';
+            isValid = false;
+        } else {
+            document.getElementById('errorYourName').innerText = '';
+        }
+
+        // Validate Your Email
+        if (yourEmail.trim() === '') {
+            document.getElementById('errorYourEmail').innerText = 'Mailiniz tələb olunur...';
+            isValid = false;
+        } else {
+            document.getElementById('errorYourEmail').innerText = '';
+        }
+
+        // Validate Comment
+        if (comment.trim() === '') {
+            document.getElementById('errorComment').innerText = 'Mətin tələb olunur...';
+            isValid = false;
+        } else {
+            document.getElementById('errorComment').innerText = '';
+        }
+
+        // If all validations pass, you can submit the form
+        if (isValid) {
+            document.getElementById('myForm').submit();
+        }
+    }
+</script>
+
 
 		<!-- ============================================================== -->
 		<!-- This page plugins -->

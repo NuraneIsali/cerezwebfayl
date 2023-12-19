@@ -11,7 +11,8 @@
 		 
         <!-- Custom CSS -->
         <link href="assets/css/styles.css" rel="stylesheet">
-		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       
     </head>
 	
     <body class="grocery-theme light">
@@ -48,22 +49,17 @@
 											<li><a href="javascript:void(0);">Italy</a></li>
 										</ul>
 									</li>
-									<li class="dropdown dropdown-currency hidden-xs hidden-sm">
-										<a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">USD<i class="ml-1 fa fa-angle-down"></i></a>
-										<ul class="dropdown-menu mlix-wrap">
-											<li><a href="javascript:void(0);">EUR</a></li>
-											<li><a href="javascript:void(0);">AUD</a></li>
-											<li><a href="javascript:void(0);">GBP</a></li>
-										</ul>
-									</li>
 								</ul>
 							</div>
 							<div class="col-lg-6 col-md-6 col-sm-6 col-8">
 								<div class="topbar_menu">
-									<ul>
-										<li><a href="order.html"><i class="ti-bag"></i>My Account</a></li>
-										<li><a href="order-tracking.html"><i class="ti-location-pin"></i>Track Order</a></li>
-										<li class="hide-m"><a href="wishlist.html"><i class="ti-heart"></i>Favourites</a></li>
+									<ul class="footer_social_links social">
+										<li><a href="#"><i class="ti-facebook"></i></a></li>
+										<li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+										<li><a href="#"><i class="ti-twitter"></i></a></li>
+										<li><a href="#"><i class="ti-instagram"></i></a></li>
+										<li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
+	
 									</ul>
 								</div>
 							</div>
@@ -89,15 +85,6 @@
 											<a class="cart_box" data-toggle="collapse" href="#mySearch" role="button" aria-expanded="false" aria-controls="mySearch"><i class="ti-search"></i></a>
 										</div>
 									</div>
-									<div class="single_shop_cart">
-										<div class="ss_cart_left">
-											<a href="#"  onclick="openRightMenu()" class="cart_box"><span class="qut_counter">0</span><i class="ti-shopping-cart"></i></a>
-										</div>
-										<div class="ss_cart_content">
-											<strong>My Cart</strong>
-											<span>$0.00</span>
-										</div>
-									</div>
 								</div>
 								
 								<!-- Show on Desktop -->
@@ -109,15 +96,6 @@
 										<div class="ss_cart_content">
 											<strong>Call Us:</strong>
 											<span>+91 855 606 8402</span>
-										</div>
-									</div>
-									<div class="single_shop_cart">
-										<div class="ss_cart_left">
-											<a href="#" onclick="openRightMenu()" class="cart_box"><span class="qut_counter">0</span><i class="ti-shopping-cart"></i></a>
-										</div>
-										<div class="ss_cart_content">
-											<strong>My Cart</strong>
-											<span>$0.00</span>
 										</div>
 									</div>
 								</div>
@@ -136,7 +114,7 @@
 					<div class="collapse" id="mySearch">
 						<div class="blocks search_blocks">
 							<div class="input-group">
-								<input type="text" class="form-control" placeholder="Search entire store here...">
+								<input type="text" class="form-control" placeholder="Bütün mağazanı burada axtarın...">
 								<div class="input-group-append">
 								<button class="btn search_btn" type="button"><i class="ti-search"></i></button>
 								</div>
@@ -144,14 +122,13 @@
 						</div>
 					</div>
 				</div>
-				
 				<div class="header_nav">
 					<div class="container">	
 						<div class="row align-item-center">
 							<div class="col-lg-3 col-md-4 col-sm-8 col-10">
 								<!-- For Desktop -->
 								<div class="shopby_categories d-none d-xl-block d-lg-block">
-									<a class="shop_category" data-toggle="collapse" href="#myCategories" role="button" aria-expanded="false" aria-controls="myCategories"><i class="ti-menu"></i>Shop By categories</a>
+									<a class="shop_category" data-toggle="collapse" href="#myCategories" role="button" aria-expanded="false" aria-controls="myCategories"><i class="ti-menu"></i>Kateqorilərə görə sırala</a>
 									<div class="collapse" id="myCategories">
 										<div id="cats_menu">
 											<ul>
@@ -235,113 +212,35 @@
 									<div class="nav-header">
 										<div class="nav-toggle"></div>
 									</div>
-									<div class="nav-menus-wrapper" style="transition-property: none;">
+									
+									<div class="nav-menus-wrapper" style="transition-property: none;"><span class="nav-menus-wrapper-close-button">✕</span>
 										<ul class="nav-menu">
 										
-											<li class="active"><a href="#">Home<span class="submenu-indicator"></span></a>
-												<ul class="nav-dropdown nav-submenu">
-													<li><a href="#">Grocery<span class="submenu-indicator"></span></a>
-														<ul class="nav-dropdown nav-submenu">
-															<li><a href="grocery.html">Grocery 1</a></li>
-															<li><a href="grocery-2.html">Grocery 2</a></li>
-															<li><a href="grocery-3.html">Grocery 3</a></li>
-														</ul>
-													</li>
-													<li><a href="#">Retail Design<span class="submenu-indicator"></span></a>
-														<ul class="nav-dropdown nav-submenu">
-															<li><a href="woocommerce.html">Woocommerce</a></li>
-															<li><a href="woocommerce-2.html">Woocommerce 2</a></li>
-															<li><a href="beauty.html">Cosmetics</a></li>
-														</ul>
-													</li>
-													<li><a href="organic.html">Organic</a></li>
-													<li><a href="electronics.html">Electronic</a></li>
-													<li><a href="digital.html">Digital</a></li>
-													<li><a href="furniture.html">Furniture</a></li>
-												</ul>
+											<li class="active"><a href="file:///C:/Users/User/Desktop/nutsweb/nutsweb/themezhub.net/odex-live/odex/grocery-4.html">Ana Səhifə<span class="submenu-indicator"></span></a>
+												
 											</li>
 											
-											<li><a href="#">Category<span class="submenu-indicator"></span></a>
-												<ul class="nav-dropdown nav-submenu">
-													<li><a href="#">VARIATIONS 1<span class="submenu-indicator"></span></a>
-														<ul class="nav-dropdown nav-submenu">
-															<li><a href="search-full-width.html">Full Width Banner</a></li>
-															<li><a href="search-list-layout.html">With List Layouts</a></li>
-															<li><a href="4-column.html">4 Column Products</a></li>
-															<li><a href="5-column.html">5 Column Products</a></li>
-															<li><a href="6-column.html">6 Column Products</a></li>
-														</ul>
-													</li>
-													<li><a href="#">VARIATIONS 2<span class="submenu-indicator"></span></a>
-														<ul class="nav-dropdown nav-submenu">
-															<li><a href="grocery.html">Header Style 1</a></li>
-															<li><a href="grocery-2.html">Header Style 2</a></li>
-															<li><a href="grocery-3.html">Header Style 3</a></li>
-															<li><a href="#">7 Columns Products</a></li>
-															<li><a href="#">9 Columns Products</a></li>
-															<li><a href="#">10 Columns Products</a></li>
-														</ul>
-													</li>
-												</ul>
+											<li><a href="file:///C:/Users/User/Desktop/nutsweb/nutsweb/themezhub.net/odex-live/odex/about.html">Haqqımızda<span class="submenu-indicator"></span></a>
+											
 											</li>
 											
-											<li><a href="#">Products<span class="submenu-indicator"></span></a>
-												<ul class="nav-dropdown nav-submenu">
-													<li><a href="#">VARIATIONS 1<span class="submenu-indicator"></span></a>
-														<ul class="nav-dropdown nav-submenu">
-															<li><a href="search-sidebar.html">With Sidebar 1</a></li>
-															<li><a href="search-sidebar-2.html">With Sidebar 2</a></li>
-															<li><a href="search-sidebar-3.html">With Sidebar 3</a></li>
-															<li><a href="search-sidebar-4.html">With Sidebar 4</a></li>
-															<li><a href="search-sidebar-5.html">With Sidebar 5</a></li>
-															<li><a href="search-sidebar-6.html">With Sidebar 6</a></li>
-															<li><a href="search-sidebar-7.html">With Sidebar 7</a></li>
-															<li><a href="search-sidebar-8.html">With Sidebar 8</a></li>
-														</ul>
-													</li>
-													<li><a href="#">VARIATIONS 2<span class="submenu-indicator"></span></a>
-														<ul class="nav-dropdown nav-submenu">
-															<li><a href="detail-1.html">Default Product</a></li>
-															<li><a href="detail-1.html">Default Product 2</a></li>
-															<li><a href="detail-3.html">Grouped products</a></li>
-															<li><a href="detail-4.html">Simple Product</a></li>
-															<li><a href="detail-5.html">Grouped Product</a></li>
-															<li><a href="detail-6.html">Digital Product</a></li>
-															<li><a href="vendor.html">Vendor Detail</a></li>
-														</ul>
-													</li>
-												</ul>
+											<li><a href="file:///C:/Users/User/Desktop/nutsweb/nutsweb/themezhub.net/odex-live/odex/search-sidebar.html">Məhsullar<span class="submenu-indicator"></span></a>
+												<ul class="nav-dropdown nav-submenu" style="">
+													<li><a href="blog.html">Çərəzlər</a></li>
+													<li><a href="blog-detail.html">Quru meyvələr</a></li>
+													<li><a href="about.html">Toxumlular</a></li>
+													<li><a href="contact.html">Qurudulmuş</a></li>
+													<li><a href="contact.html">Acı olanlar</a></li>
+													<li><a href="contact.html">Şirin olanlar</a></li>
+												</ul>		
 											</li>
 											
-											<li><a href="#">Shop Pages<span class="submenu-indicator"></span></a>
-												<ul class="nav-dropdown nav-submenu">
-													<li><a href="#">User Dashboard<span class="submenu-indicator"></span></a>
-														<ul class="nav-dropdown nav-submenu">
-															<li><a href="order.html">My Order</a></li>
-															<li><a href="order-history.html">Order History</a></li>
-															<li><a href="order-tracking.html">Order Tracking</a></li>
-															<li><a href="wishlist.html">Wishlist</a></li>
-															<li><a href="account-info.html">Account Settings</a></li>
-															<li><a href="payment-methode.html">Payment Methods</a></li>
-														</ul>
-													</li>
-													<li><a href="add-to-cart.html">Add To Cart</a></li>
-													<li><a href="billing.html">Billing Page</a></li>
-													<li><a href="checkout-complete.html">Checkout Confirmation</a></li>
-													<li><a href="admin-login.html">Admin Login</a></li>
-												</ul>
+											<li><a href="file:///C:/Users/User/Desktop/nutsweb/nutsweb/themezhub.net/odex-live/odex/blog.html">Bloq<span class="submenu-indicator"></span></a>
+												
 											</li>
 											
-											<li><a href="#">Pages<span class="submenu-indicator"></span></a>
-												<ul class="nav-dropdown nav-submenu">
-													<li><a href="blog.html">Blog Page</a></li>
-													<li><a href="blog-detail.html">Blog Detail</a></li>
-													<li><a href="about.html">About Us</a></li>
-													<li><a href="contact.html">Contact</a></li>
-													<li><a href="login-signup.html">Login/SignUp</a></li>
-													<li><a href="faq.html">FAQ's</a></li>
-													<li><a href="404.html">404</a></li>
-												</ul>
+											<li><a href="file:///C:/Users/User/Desktop/nutsweb/nutsweb/themezhub.net/odex-live/odex/contact.html">Bizimlə Əlaqə<span class="submenu-indicator"></span></a>
+											
 											</li>
 											
 										</ul>
@@ -395,12 +294,12 @@
 							<article class="post-grid-layout">
 								<a href="blog-detail.html">
 									<div class="post-article-header">
-										<img src="assets/img/offer-1.jpg" class="img-fluid mx-auto" alt="">
+										<img src="assets/img/2_b06c86af-977d-4e56-9eb8-6e84a21b7f47_470x.webp" class="img-fluid mx-auto" alt="">
 									</div>
 								</a>
 								<div class="post-article box-inner">
 									<div class="post-grid-caption-header">
-										<span class="post-article-cat theme-bg">Healhty</span>
+										<span class="post-article-cat theme-bg">Çərəzlər</span>
 										<h4 class="entry-title"><a href="blog-detail.html">Get Free Your First Delivery</a></h4>
 										<div class="post-short-des">
 											simply dummy text of the printing and typesetting industry.
@@ -408,14 +307,8 @@
 									</div>
 								</div>
 								<div class="post-article-footer">
-									<div class="post-author">
-										
-										<img src="assets/img/user-3.jpg" class="img-fluid" alt="">
-										<a href="#" class="theme-cl">
-											Admam Kushar
-										</a>
-									</div>
-									<span><i class="ti-calendar mr-1"></i>3 days ago</span>
+									
+									<span><i class="ti-calendar mr-1"></i>17.12.2023</span>
 								</div>
 							</article>
 						</div>
@@ -425,12 +318,12 @@
 							<article class="post-grid-layout">
 								<a href="blog-detail.html">
 									<div class="post-article-header">
-										<img src="assets/img/offer-2.jpg" class="img-fluid mx-auto" alt="">
+										<img src="assets/img/3_f478f2fb-3156-4bfe-bd47-481177f4ef9c_470x.webp" class="img-fluid mx-auto" alt="">
 									</div>
 								</a>
 								<div class="post-article box-inner">
 									<div class="post-grid-caption-header">
-										<span class="post-article-cat theme-bg">Gym & Fitness</span>
+										<span class="post-article-cat theme-bg">Quru meyvələr</span>
 										<h4 class="entry-title"><a href="blog-detail.html">Get Free Your First Delivery</a></h4>
 										<div class="post-short-des">
 											simply dummy text of the printing and typesetting industry.
@@ -438,14 +331,8 @@
 									</div>
 								</div>
 								<div class="post-article-footer">
-									<div class="post-author">
-										
-										<img src="assets/img/user-8.jpg" class="img-fluid" alt="">
-										<a href="#" class="theme-cl">
-											Admam Kushar
-										</a>
-									</div>
-									<span><i class="ti-calendar mr-1"></i>3 days ago</span>
+									
+									<span><i class="ti-calendar mr-1"></i>17.12.2023</span>
 								</div>
 							</article>
 						</div>
@@ -455,12 +342,12 @@
 							<article class="post-grid-layout">
 								<a href="blog-detail.html">
 									<div class="post-article-header">
-										<img src="assets/img/offer-3.jpg" class="img-fluid mx-auto" alt="">
+										<img src="assets/img/4_f7876c53-7f18-4ed6-bd52-811252e606fe_470x.webp" class="img-fluid mx-auto" alt="">
 									</div>
 								</a>
 								<div class="post-article box-inner">
 									<div class="post-grid-caption-header">
-										<span class="post-article-cat theme-bg">Sport & Football</span>
+										<span class="post-article-cat theme-bg">Toxumlular</span>
 										<h4 class="entry-title"><a href="blog-detail.html">Get Free Your First Delivery</a></h4>
 										<div class="post-short-des">
 											simply dummy text of the printing and typesetting industry.
@@ -468,14 +355,8 @@
 									</div>
 								</div>
 								<div class="post-article-footer">
-									<div class="post-author">
-										
-										<img src="assets/img/user-4.jpg" class="img-fluid" alt="">
-										<a href="#" class="theme-cl">
-											Admam Kushar
-										</a>
-									</div>
-									<span><i class="ti-calendar mr-1"></i>3 days ago</span>
+									
+									<span><i class="ti-calendar mr-1"></i>17.12.2023</span>
 								</div>
 							</article>
 						</div>
@@ -485,12 +366,12 @@
 							<article class="post-grid-layout">
 								<a href="blog-detail.html">
 									<div class="post-article-header">
-										<img src="assets/img/offer-4.jpg" class="img-fluid mx-auto" alt="">
+										<img src="assets/img/2_b06c86af-977d-4e56-9eb8-6e84a21b7f47_470x.webp" class="img-fluid mx-auto" alt="">
 									</div>
 								</a>
 								<div class="post-article box-inner">
 									<div class="post-grid-caption-header">
-										<span class="post-article-cat theme-bg">Technology</span>
+										<span class="post-article-cat theme-bg">Acı olanlar</span>
 										<h4 class="entry-title"><a href="blog-detail.html">Get Free Your First Delivery</a></h4>
 										<div class="post-short-des">
 											simply dummy text of the printing and typesetting industry.
@@ -498,14 +379,8 @@
 									</div>
 								</div>
 								<div class="post-article-footer">
-									<div class="post-author">
-										
-										<img src="assets/img/user-8.jpg" class="img-fluid" alt="">
-										<a href="#" class="theme-cl">
-											Admam Kushar
-										</a>
-									</div>
-									<span><i class="ti-calendar mr-1"></i>3 days ago</span>
+									
+									<span><i class="ti-calendar mr-1"></i>17.12.2023</span>
 								</div>
 							</article>
 						</div>
@@ -515,12 +390,12 @@
 							<article class="post-grid-layout">
 								<a href="blog-detail.html">
 									<div class="post-article-header">
-										<img src="assets/img/offer-5.jpg" class="img-fluid mx-auto" alt="">
+										<img src="assets/img/4_f7876c53-7f18-4ed6-bd52-811252e606fe_470x.webp" class="img-fluid mx-auto" alt="">
 									</div>
 								</a>
 								<div class="post-article box-inner">
 									<div class="post-grid-caption-header">
-										<span class="post-article-cat theme-bg">Vegetables</span>
+										<span class="post-article-cat theme-bg">Şirirn olanlar</span>
 										<h4 class="entry-title"><a href="blog-detail.html">Get Free Your First Delivery</a></h4>
 										<div class="post-short-des">
 											simply dummy text of the printing and typesetting industry.
@@ -528,14 +403,8 @@
 									</div>
 								</div>
 								<div class="post-article-footer">
-									<div class="post-author">
-										
-										<img src="assets/img/user-5.jpg" class="img-fluid" alt="">
-										<a href="#" class="theme-cl">
-											Admam Kushar
-										</a>
-									</div>
-									<span><i class="ti-calendar mr-1"></i>3 days ago</span>
+									
+									<span><i class="ti-calendar mr-1"></i>17.12.2023</span>
 								</div>
 							</article>
 						</div>
@@ -545,12 +414,12 @@
 							<article class="post-grid-layout">
 								<a href="blog-detail.html">
 									<div class="post-article-header">
-										<img src="assets/img/offer-66.jpg" class="img-fluid mx-auto" alt="">
+										<img src="assets/img/3_f478f2fb-3156-4bfe-bd47-481177f4ef9c_470x.webp" class="img-fluid mx-auto" alt="">
 									</div>
 								</a>
 								<div class="post-article box-inner">
 									<div class="post-grid-caption-header">
-										<span class="post-article-cat theme-bg">Finance</span>
+										<span class="post-article-cat theme-bg">Qurudulmuşlar</span>
 										<h4 class="entry-title"><a href="blog-detail.html">Get Free Your First Delivery</a></h4>
 										<div class="post-short-des">
 											simply dummy text of the printing and typesetting industry.
@@ -558,20 +427,14 @@
 									</div>
 								</div>
 								<div class="post-article-footer">
-									<div class="post-author">
-										
-										<img src="assets/img/user-4.jpg" class="img-fluid" alt="">
-										<a href="#" class="theme-cl">
-											Admam Kushar
-										</a>
-									</div>
-									<span><i class="ti-calendar mr-1"></i>3 days ago</span>
+									
+									<span><i class="ti-calendar mr-1"></i>17.12.2023</span>
 								</div>
 							</article>
 						</div>
 						
 						<div class="col-md-12 col-md-12 text-center">
-							<a class="btn btn-theme rounded" href="#">Load More Events<i class="ml-2 fa fa-spinner fa-spin"></i> </a>
+							<a class="btn btn-theme rounded" href="#">Load More Event<i class="ml-2 fa fa-spinner fa-spin"></i> </a>
 						</div>
 						
 					</div>
@@ -657,22 +520,18 @@
 					<div class="container">
 						<div class="row">
 							
+									
 							<div class="col-lg-4 col-md-4">
 								<div class="footer_widget">
-									<h4 class="extream">Contact us</h4>
-									<p>Let's here all about it! <a href="#" class="theme-cl">Get it touch</a></p>
-									
-									<div class="address_infos">
-										<ul>
-											<li><i class="ti-home theme-cl"></i>#302 Brick Market, Jalsa California<br>United State HQS1130</li>
-											<li><i class="ti-headphone-alt theme-cl"></i>(41) 254 758 4572</li>
-										</ul>
-									</div>
+<img style="width: 200px;" src="assets/img/logo-light.png" alt=""><br> <br>
+
+<span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nobis, sequi aut sunt ea praesentium incidunt aliquam et ducimus illum quidem provident nesciunt dolorum laborum dicta eligendi quod modi recusandae?</span>
+
+
 									
 								</div>
 							</div>
-									
-							<div class="col-lg-2 col-md-2">
+							<div style="margin-left: 90px;" class="col-lg-2 col-md-2">
 								<div class="footer_widget">
 									<h4 class="widget_title">Categories</h4>
 									<ul class="footer-menu">
@@ -684,40 +543,35 @@
 								</div>
 							</div>
 									
-							<div class="col-lg-2 col-md-2">
-								<div class="footer_widget">
-									<h4 class="widget_title">Our Company</h4>
-									<ul class="footer-menu">
-										<li><a href="#">About Us</a></li>
-										<li><a href="#">My company</a></li>
-										<li><a href="#">Our Studio</a></li>
-										<li><a href="#">Nightlife</a></li>
-									</ul>
-								</div>
-							</div>
 							
-							<div class="col-lg-2 col-md-2">
+							<div class="col-lg-4 col-md-4">
 								<div class="footer_widget">
-									<h4 class="widget_title">Latest News</h4>
-									<ul class="footer-menu">
-										<li><a href="#">Offers & Deals</a></li>
-										<li><a href="#">My Account</a></li>
-										<li><a href="#">My Products</a></li>
-										<li><a href="#">Favorites</a></li>
-									</ul>
+									<h4 class="extream">Contact us</h4>
+									<p>Let's here all about it! <a href="#" class="theme-cl">Get it touch</a></p>
+									
+									<div class="address_infos">
+										<ul>
+											<li><i class="ti-home theme-cl"></i>#302 Brick Market, Jalsa California<br>United State HQS1130</li>
+											<li><i class="ti-headphone-alt theme-cl"></i>(41) 254 758 4572</li>
+											<li><i class="fa-solid fa-envelope"></i>khanbuta.group@gmail.com</li>
+										</ul>
+
+									</div>
+									
 								</div>
-							</div>
+							</div><br><br>
 							
-							<div class="col-lg-2 col-md-2">
-								<div class="footer_widget">
-									<h4 class="widget_title">Customer Support</h4>
-									<ul class="footer-menu">
-										<li><a href="#">Conditions</a></li>
-										<li><a href="#">Privacy</a></li>
-										<li><a href="#">Blog</a></li>
-										<li><a href="#">FAQs</a></li>
-									</ul>
-								</div>
+							<div class="col-lg-6 col-md-6 text-right">
+								<ul class="footer_social_links">
+									<li><a href="#"><i class="ti-facebook"></i></a></li>
+									<li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+									<li><a href="#"><i class="ti-twitter"></i></a></li>
+									<li><a href="#"><i class="ti-instagram"></i></a></li>
+									<li><a href="#"><i class="ti-linkedin"></i></a></li>
+									<li><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+									<li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
+
+								</ul>
 							</div>
 							
 						</div>
@@ -729,17 +583,9 @@
 						<div class="row align-items-center">
 							
 							<div class="col-lg-6 col-md-8">
-								<p class="mb-0">Â©Copyright 2020 Odex. Designd By <a href="https://bootstrapdesigns.net/">BootstrapDesigns</a>.</p>
+								<p class="mb-0">©Copyright 2020 Odex. Designd By <a style="color:#eb4646;" href="https://khanbutagroup.az/">KHANBUTAGROUP</a>.</p>
 							</div>
 							
-							<div class="col-lg-6 col-md-6 text-right">
-								<ul class="footer_social_links">
-									<li><a href="#"><i class="ti-facebook"></i></a></li>
-									<li><a href="#"><i class="ti-twitter"></i></a></li>
-									<li><a href="#"><i class="ti-instagram"></i></a></li>
-									<li><a href="#"><i class="ti-linkedin"></i></a></li>
-								</ul>
-							</div>
 							
 						</div>
 					</div>

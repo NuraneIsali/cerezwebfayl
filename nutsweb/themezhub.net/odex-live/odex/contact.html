@@ -11,7 +11,8 @@
 		 
         <!-- Custom CSS -->
         <link href="assets/css/styles.css" rel="stylesheet">
-		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       
     </head>
 	
     <body class="grocery-theme light">
@@ -42,28 +43,22 @@
 									<li class="dropdown dropdown-currency hidden-xs hidden-sm">
 										<a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Eng<i class="ml-1 fa fa-angle-down"></i></a>
 										<ul class="dropdown-menu mlix-wrap">
-											<li><a href="javascript:void(0);">English</a></li>
-											<li><a href="javascript:void(0);">French</a></li>
-											<li><a href="javascript:void(0);">Spainish</a></li>
-											<li><a href="javascript:void(0);">Italy</a></li>
+											<li><a href="javascript:void(0);">AZE</a></li>
+											<li><a href="javascript:void(0);">RU</a></li>
 										</ul>
 									</li>
-									<li class="dropdown dropdown-currency hidden-xs hidden-sm">
-										<a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">USD<i class="ml-1 fa fa-angle-down"></i></a>
-										<ul class="dropdown-menu mlix-wrap">
-											<li><a href="javascript:void(0);">EUR</a></li>
-											<li><a href="javascript:void(0);">AUD</a></li>
-											<li><a href="javascript:void(0);">GBP</a></li>
-										</ul>
-									</li>
+									
 								</ul>
 							</div>
 							<div class="col-lg-6 col-md-6 col-sm-6 col-8">
 								<div class="topbar_menu">
-									<ul>
-										<li><a href="order.html"><i class="ti-bag"></i>My Account</a></li>
-										<li><a href="order-tracking.html"><i class="ti-location-pin"></i>Track Order</a></li>
-										<li class="hide-m"><a href="wishlist.html"><i class="ti-heart"></i>Favourites</a></li>
+									<ul class="footer_social_links social">
+										<li><a href="#"><i class="ti-facebook"></i></a></li>
+										<li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+										<li><a href="#"><i class="ti-twitter"></i></a></li>
+										<li><a href="#"><i class="ti-instagram"></i></a></li>
+										<li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
+	
 									</ul>
 								</div>
 							</div>
@@ -111,20 +106,11 @@
 											<span>+91 855 606 8402</span>
 										</div>
 									</div>
-									<div class="single_shop_cart">
-										<div class="ss_cart_left">
-											<a href="#" onclick="openRightMenu()" class="cart_box"><span class="qut_counter">0</span><i class="ti-shopping-cart"></i></a>
-										</div>
-										<div class="ss_cart_content">
-											<strong>My Cart</strong>
-											<span>$0.00</span>
-										</div>
-									</div>
 								</div>
 								
 								<div class="blocks search_blocks d-none d-xl-block d-lg-block">
 									<div class="input-group">
-										<input type="text" class="form-control" placeholder="Search entire store here...">
+										<input type="text" class="form-control" placeholder="Bütün Mağazanı Burada Axtarın...">
 										<div class="input-group-append">
 										<button class="btn search_btn" type="button"><i class="ti-search"></i></button>
 										</div>
@@ -151,7 +137,7 @@
 							<div class="col-lg-3 col-md-4 col-sm-8 col-10">
 								<!-- For Desktop -->
 								<div class="shopby_categories d-none d-xl-block d-lg-block">
-									<a class="shop_category" data-toggle="collapse" href="#myCategories" role="button" aria-expanded="false" aria-controls="myCategories"><i class="ti-menu"></i>Shop By categories</a>
+									<a class="shop_category" data-toggle="collapse" href="#myCategories" role="button" aria-expanded="false" aria-controls="myCategories"><i class="ti-menu"></i>Kateqorilərə görə sırala</a>
 									<div class="collapse" id="myCategories">
 										<div id="cats_menu">
 											<ul>
@@ -225,7 +211,7 @@
 								
 								<!-- For Mobile -->
 								<div class="shopby_categories d-xl-none d-lg-none">
-									<a class="shop_category" href="javascript:void(0);" onclick="openLeftMenu()"><i class="ti-menu"></i>Shop By categories</a>
+									<a class="shop_category" href="javascript:void(0);" onclick="openLeftMenu()"><i class="ti-menu"></i>Kateqorilərə görə sırala</a>
 								</div>
 								
 							</div>
@@ -235,113 +221,36 @@
 									<div class="nav-header">
 										<div class="nav-toggle"></div>
 									</div>
-									<div class="nav-menus-wrapper" style="transition-property: none;">
+									
+									<div class="nav-menus-wrapper" style="transition-property: none;"><span class="nav-menus-wrapper-close-button">✕</span>
 										<ul class="nav-menu">
 										
-											<li class="active"><a href="#">Home<span class="submenu-indicator"></span></a>
-												<ul class="nav-dropdown nav-submenu">
-													<li><a href="#">Grocery<span class="submenu-indicator"></span></a>
-														<ul class="nav-dropdown nav-submenu">
-															<li><a href="grocery.html">Grocery 1</a></li>
-															<li><a href="grocery-2.html">Grocery 2</a></li>
-															<li><a href="grocery-3.html">Grocery 3</a></li>
-														</ul>
-													</li>
-													<li><a href="#">Retail Design<span class="submenu-indicator"></span></a>
-														<ul class="nav-dropdown nav-submenu">
-															<li><a href="woocommerce.html">Woocommerce</a></li>
-															<li><a href="woocommerce-2.html">Woocommerce 2</a></li>
-															<li><a href="beauty.html">Cosmetics</a></li>
-														</ul>
-													</li>
-													<li><a href="organic.html">Organic</a></li>
-													<li><a href="electronics.html">Electronic</a></li>
-													<li><a href="digital.html">Digital</a></li>
-													<li><a href="furniture.html">Furniture</a></li>
-												</ul>
+											<li class="active"><a href="file:///C:/Users/User/Desktop/nutsweb/nutsweb/themezhub.net/odex-live/odex/grocery-4.html">Ana Səhifə</a>
+
+												
 											</li>
 											
-											<li><a href="#">Category<span class="submenu-indicator"></span></a>
-												<ul class="nav-dropdown nav-submenu">
-													<li><a href="#">VARIATIONS 1<span class="submenu-indicator"></span></a>
-														<ul class="nav-dropdown nav-submenu">
-															<li><a href="search-full-width.html">Full Width Banner</a></li>
-															<li><a href="search-list-layout.html">With List Layouts</a></li>
-															<li><a href="4-column.html">4 Column Products</a></li>
-															<li><a href="5-column.html">5 Column Products</a></li>
-															<li><a href="6-column.html">6 Column Products</a></li>
-														</ul>
-													</li>
-													<li><a href="#">VARIATIONS 2<span class="submenu-indicator"></span></a>
-														<ul class="nav-dropdown nav-submenu">
-															<li><a href="grocery.html">Header Style 1</a></li>
-															<li><a href="grocery-2.html">Header Style 2</a></li>
-															<li><a href="grocery-3.html">Header Style 3</a></li>
-															<li><a href="#">7 Columns Products</a></li>
-															<li><a href="#">9 Columns Products</a></li>
-															<li><a href="#">10 Columns Products</a></li>
-														</ul>
-													</li>
-												</ul>
+											<li><a href="file:///C:/Users/User/Desktop/nutsweb/nutsweb/themezhub.net/odex-live/odex/about.html">Haqqımızda<span class="submenu-indicator"></span></a>
+											
 											</li>
 											
-											<li><a href="#">Products<span class="submenu-indicator"></span></a>
+											<li><a href="file:///C:/Users/User/Desktop/nutsweb/nutsweb/themezhub.net/odex-live/odex/search-sidebar.html">Məhsullar<span class="submenu-indicator"></span></a>
 												<ul class="nav-dropdown nav-submenu">
-													<li><a href="#">VARIATIONS 1<span class="submenu-indicator"></span></a>
-														<ul class="nav-dropdown nav-submenu">
-															<li><a href="search-sidebar.html">With Sidebar 1</a></li>
-															<li><a href="search-sidebar-2.html">With Sidebar 2</a></li>
-															<li><a href="search-sidebar-3.html">With Sidebar 3</a></li>
-															<li><a href="search-sidebar-4.html">With Sidebar 4</a></li>
-															<li><a href="search-sidebar-5.html">With Sidebar 5</a></li>
-															<li><a href="search-sidebar-6.html">With Sidebar 6</a></li>
-															<li><a href="search-sidebar-7.html">With Sidebar 7</a></li>
-															<li><a href="search-sidebar-8.html">With Sidebar 8</a></li>
-														</ul>
-													</li>
-													<li><a href="#">VARIATIONS 2<span class="submenu-indicator"></span></a>
-														<ul class="nav-dropdown nav-submenu">
-															<li><a href="detail-1.html">Default Product</a></li>
-															<li><a href="detail-1.html">Default Product 2</a></li>
-															<li><a href="detail-3.html">Grouped products</a></li>
-															<li><a href="detail-4.html">Simple Product</a></li>
-															<li><a href="detail-5.html">Grouped Product</a></li>
-															<li><a href="detail-6.html">Digital Product</a></li>
-															<li><a href="vendor.html">Vendor Detail</a></li>
-														</ul>
-													</li>
-												</ul>
+													<li><a href="blog.html">Çərəzlər</a></li>
+													<li><a href="blog-detail.html">Quru meyvələr</a></li>
+													<li><a href="about.html">Toxumlular</a></li>
+													<li><a href="contact.html">Qurudulmuş</a></li>
+													<li><a href="contact.html">Acı olanlar</a></li>
+													<li><a href="contact.html">Şirin olanlar</a></li>
+												</ul>	
 											</li>
 											
-											<li><a href="#">Shop Pages<span class="submenu-indicator"></span></a>
-												<ul class="nav-dropdown nav-submenu">
-													<li><a href="#">User Dashboard<span class="submenu-indicator"></span></a>
-														<ul class="nav-dropdown nav-submenu">
-															<li><a href="order.html">My Order</a></li>
-															<li><a href="order-history.html">Order History</a></li>
-															<li><a href="order-tracking.html">Order Tracking</a></li>
-															<li><a href="wishlist.html">Wishlist</a></li>
-															<li><a href="account-info.html">Account Settings</a></li>
-															<li><a href="payment-methode.html">Payment Methods</a></li>
-														</ul>
-													</li>
-													<li><a href="add-to-cart.html">Add To Cart</a></li>
-													<li><a href="billing.html">Billing Page</a></li>
-													<li><a href="checkout-complete.html">Checkout Confirmation</a></li>
-													<li><a href="admin-login.html">Admin Login</a></li>
-												</ul>
+											<li><a href="file:///C:/Users/User/Desktop/nutsweb/nutsweb/themezhub.net/odex-live/odex/blog.html">Bloq</a>
+												
 											</li>
 											
-											<li><a href="#">Pages<span class="submenu-indicator"></span></a>
-												<ul class="nav-dropdown nav-submenu">
-													<li><a href="blog.html">Blog Page</a></li>
-													<li><a href="blog-detail.html">Blog Detail</a></li>
-													<li><a href="about.html">About Us</a></li>
-													<li><a href="contact.html">Contact</a></li>
-													<li><a href="login-signup.html">Login/SignUp</a></li>
-													<li><a href="faq.html">FAQ's</a></li>
-													<li><a href="404.html">404</a></li>
-												</ul>
+											<li><a href="file:///C:/Users/User/Desktop/nutsweb/nutsweb/themezhub.net/odex-live/odex/contact.html">Bizimlə Əlaqə</a>
+											
 											</li>
 											
 										</ul>
@@ -393,8 +302,8 @@
 						
 						<div class="col-lg-4 col-md-4">
 							<div class="contact-box">
-								<img src="assets/img/us-marker.png" class="mx-auto" alt="">
-								<h4>Global Headquarters</h4>
+								<i class="fa-solid fa-house"></i>
+								<h4>ÜNVAN</h4>
 								810 Clis Road,<br>
 								Indraprash NW11 0PU, India
 							</div>
@@ -402,8 +311,8 @@
 						
 						<div class="col-lg-4 col-md-4">
 							<div class="contact-box">
-								<img src="assets/img/india-marker.png" class="mx-auto" alt="">
-								<h4>Evolphin India</h4>
+								<i class="fa-solid fa-envelope"></i>
+								<h4>E-POÇT</h4>
 								virasat@gmail.com<br>
 								my.virasat@gmail.com
 							</div>
@@ -411,8 +320,8 @@
 						
 						<div class="col-lg-4 col-md-4">
 							<div class="contact-box">
-								<img src="assets/img/uk-marker.png" class="mx-auto" alt="">
-								<h4>Evolphin Europe</h4>
+								<i class="fa-solid fa-phone-volume"></i>
+								<h4>TELEFON</h4>
 								91+ 123 456 9857<br>
 								91+ 258 548 5426
 							</div>
@@ -422,43 +331,50 @@
 					
 					<div class="row mt-5 align-items-center">
 						
-						<div class="col-lg-5 col-md-12 hide-91">
-							<img src="assets/img/preet-o.png" class="img-fluid rounded" alt="" />
-						</div>
 						
 						<div class="col-lg-7 col-md-12">
 							<div class="contact-form">
-								<form>
+								<div class="contact-form">
+									<form id="w0">
 								
-									<div class="form-row">
-									
-										<div class="form-group col-md-6">
-										  <label>Name</label>
-										  <input type="email" class="form-control" placeholder="Name">
+										<div class="form-row">
+								
+											<div class="form-group col-md-6">
+												<label for="contactform-name_surname">Adınız</label>
+												<input type="text" class="form-control" id="contactform-name_surname" placeholder="Adınızı daxil edin">
+												<div class="help-block"></div>
+											</div>
+								
+											<div class="form-group col-md-6">
+												<label for="contactform-email">Email</label>
+												<input type="email" class="form-control" id="contactform-email" placeholder="Mailinizi daxil edin...">
+												<div class="help-block"></div>
+											</div>
 										</div>
-										
-										<div class="form-group col-md-6">
-										  <label>Email</label>
-										  <input type="email" class="form-control" placeholder="Email">
+								
+										<div class="form-group col-lg-12 col-md-12">
+											<label for="contactform-subject">Telefon </label>
+											<input type="text" class="form-control" id="contactform-subject" placeholder="Nömrənizi daxil edin...">
+											<div class="help-block"></div>
 										</div>
-									</div>
-									
-									<div class="form-group col-lg-12 col-md-12">
-										<label>Subject</label>
-										<input type="text" class="form-control" placeholder="Subject">
-									</div>
-									
-									<div class="form-group col-lg-12 col-md-12">
-										<label>Message</label>
-										<textarea class="form-control" placeholder="Type Here..."></textarea>
-									</div>
-									
-									<div class="form-group col-lg-12 col-md-12">
-									<button type="submit" class="btn btn-primary">Send Request</button>
-									</div>
-									
-								</form>
+								
+										<div class="form-group col-lg-12 col-md-12">
+											<label for="contactform-message">Mətin</label>
+											<textarea class="form-control" id="contactform-message" placeholder="Mətni daxil edin..."></textarea>
+											<div class="help-block"></div>
+										</div>
+								
+										<div class="form-group col-lg-12 col-md-12">
+											<button type="submit" class="btn btn-primary">Göndər</button>
+										</div>
+								
+									</form>
+								</div>
 							</div>
+						</div>
+						
+						<div class="col-lg-5 col-md-12 hide-91">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.805370222889!2d49.85686917525453!3d40.41316225585773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307db8e976d42b%3A0x4772923e2b16c6b3!2sSaytlar%C4%B1n%20haz%C4%B1rlanmas%C4%B1-%20SMM%20xidm%C9%99ti%20-Khan%20Buta%20Group%20MMC!5e0!3m2!1saz!2saz!4v1702623065324!5m2!1saz!2saz" width="470" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 						</div>
 						
 					</div>
@@ -481,7 +397,7 @@
 								</div>
 								<div class="newsletter_box">
 									<div class="input-group">
-										<input type="text" class="form-control" placeholder="Subscribe here...">
+										<input type="text" class="form-control" placeholder="Buradan Abunə Olun...">
 										<div class="input-group-append">
 										<button class="btn search_btn" type="button"><i class="fas fa-arrow-alt-circle-right"></i></button>
 										</div>
@@ -545,24 +461,20 @@
 					<div class="container">
 						<div class="row">
 							
+									
 							<div class="col-lg-4 col-md-4">
 								<div class="footer_widget">
-									<h4 class="extream">Contact us</h4>
-									<p>Let's here all about it! <a href="#" class="theme-cl">Get it touch</a></p>
-									
-									<div class="address_infos">
-										<ul>
-											<li><i class="ti-home theme-cl"></i>#302 Brick Market, Jalsa California<br>United State HQS1130</li>
-											<li><i class="ti-headphone-alt theme-cl"></i>(41) 254 758 4572</li>
-										</ul>
-									</div>
+<img style="width: 200px;" src="assets/img/logo-light.png" alt=""><br> <br>
+
+<span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nobis, sequi aut sunt ea praesentium incidunt aliquam et ducimus illum quidem provident nesciunt dolorum laborum dicta eligendi quod modi recusandae?</span>
+
+
 									
 								</div>
 							</div>
-									
-							<div class="col-lg-2 col-md-2">
+							<div style="margin-left: 90px;" class="col-lg-2 col-md-2">
 								<div class="footer_widget">
-									<h4 class="widget_title">Categories</h4>
+									<h4 class="widget_title">Kateqorilər</h4>
 									<ul class="footer-menu">
 										<li><a href="#">Organic</a></li>
 										<li><a href="#">Grocery</a></li>
@@ -572,40 +484,35 @@
 								</div>
 							</div>
 									
-							<div class="col-lg-2 col-md-2">
-								<div class="footer_widget">
-									<h4 class="widget_title">Our Company</h4>
-									<ul class="footer-menu">
-										<li><a href="#">About Us</a></li>
-										<li><a href="#">My company</a></li>
-										<li><a href="#">Our Studio</a></li>
-										<li><a href="#">Nightlife</a></li>
-									</ul>
-								</div>
-							</div>
 							
-							<div class="col-lg-2 col-md-2">
+							<div class="col-lg-4 col-md-4">
 								<div class="footer_widget">
-									<h4 class="widget_title">Latest News</h4>
-									<ul class="footer-menu">
-										<li><a href="#">Offers & Deals</a></li>
-										<li><a href="#">My Account</a></li>
-										<li><a href="#">My Products</a></li>
-										<li><a href="#">Favorites</a></li>
-									</ul>
+									<h4 class="extream">Bizimlə Əlaqə</h4>
+									<p>Let's here all about it! <a href="#" class="theme-cl">Get it touch</a></p>
+									
+									<div class="address_infos">
+										<ul>
+											<li><i class="ti-home theme-cl"></i>#302 Brick Market, Jalsa California<br>United State HQS1130</li>
+											<li><i class="ti-headphone-alt theme-cl"></i>(41) 254 758 4572</li>
+											<li><i class="fa-solid fa-envelope"></i>khanbuta.group@gmail.com</li>
+										</ul>
+
+									</div>
+									
 								</div>
-							</div>
+							</div><br><br>
 							
-							<div class="col-lg-2 col-md-2">
-								<div class="footer_widget">
-									<h4 class="widget_title">Customer Support</h4>
-									<ul class="footer-menu">
-										<li><a href="#">Conditions</a></li>
-										<li><a href="#">Privacy</a></li>
-										<li><a href="#">Blog</a></li>
-										<li><a href="#">FAQs</a></li>
-									</ul>
-								</div>
+							<div class="col-lg-6 col-md-6 text-right">
+								<ul class="footer_social_links">
+									<li><a href="#"><i class="ti-facebook"></i></a></li>
+									<li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+									<li><a href="#"><i class="ti-twitter"></i></a></li>
+									<li><a href="#"><i class="ti-instagram"></i></a></li>
+									<li><a href="#"><i class="ti-linkedin"></i></a></li>
+									<li><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+									<li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
+
+								</ul>
 							</div>
 							
 						</div>
@@ -617,17 +524,9 @@
 						<div class="row align-items-center">
 							
 							<div class="col-lg-6 col-md-8">
-								<p class="mb-0">Â©Copyright 2020 Odex. Designd By <a href="https://bootstrapdesigns.net/">BootstrapDesigns</a>.</p>
+								<p class="mb-0">©Copyright 2020 Odex. Designd By <a style="color:#eb4646;" href="https://khanbutagroup.az/">KHANBUTAGROUP</a>.</p>
 							</div>
 							
-							<div class="col-lg-6 col-md-6 text-right">
-								<ul class="footer_social_links">
-									<li><a href="#"><i class="ti-facebook"></i></a></li>
-									<li><a href="#"><i class="ti-twitter"></i></a></li>
-									<li><a href="#"><i class="ti-instagram"></i></a></li>
-									<li><a href="#"><i class="ti-linkedin"></i></a></li>
-								</ul>
-							</div>
 							
 						</div>
 					</div>
@@ -910,6 +809,10 @@
 		<script src="assets/js/custom.js"></script>
 		
 		<script>
+
+			
+    
+
 			function openRightMenu() {
 				document.getElementById("rightMenu").style.display = "block";
 			}
@@ -926,6 +829,78 @@
 				document.getElementById("leftMenu").style.display = "none";
 			}
 		</script>
+		
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var form = document.querySelector('#w0');
+
+        form.addEventListener('submit', function (event) {
+            event.preventDefault();
+            var validationPassed = validateForm();
+
+            if (validationPassed) {
+                // If all validations pass, submit the form
+                form.submit();
+            }
+        });
+
+        function validateForm() {
+            var nameSurnameInput = document.getElementById('contactform-name_surname');
+            var emailInput = document.getElementById('contactform-email');
+            var subjectInput = document.getElementById('contactform-subject');
+            var messageInput = document.getElementById('contactform-message');
+
+            var isValid = true;
+
+            if (!nameSurnameInput.value.trim()) {
+                showError(nameSurnameInput, 'Ad boş qoyula bilməz...');
+                isValid = false;
+            } else {
+                hideError(nameSurnameInput);
+            }
+
+            if (!emailInput.value.trim() || !isValidEmail(emailInput.value.trim())) {
+                showError(emailInput, 'Mail boş qoyula bilməz...');
+                isValid = false;
+            } else {
+                hideError(emailInput);
+            }
+
+            if (!subjectInput.value.trim()) {
+                showError(subjectInput, 'Nömrə boş qoyula bilməz...');
+                isValid = false;
+            } else {
+                hideError(subjectInput);
+            }
+
+            if (!messageInput.value.trim()) {
+                showError(messageInput, 'Mətin boş qoyula bilməz...');
+                isValid = false;
+            } else {
+                hideError(messageInput);
+            }
+
+            return isValid;
+        }
+
+        function showError(inputElement, errorMessage) {
+            inputElement.parentElement.classList.add('has-error');
+            var helpBlock = inputElement.nextElementSibling;
+            helpBlock.textContent = errorMessage;
+        }
+
+        function hideError(inputElement) {
+            inputElement.parentElement.classList.remove('has-error');
+            var helpBlock = inputElement.nextElementSibling;
+            helpBlock.textContent = '';
+        }
+
+        function isValidEmail(email) {
+            var emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+            return email.match(emailPattern);
+        }
+    });
+</script>
 
 		<!-- ============================================================== -->
 		<!-- This page plugins -->
