@@ -383,7 +383,7 @@ $(function() {
 	
 	// Recent Products Slider
 	$('.category-slider').owlCarousel({
-		items:7,
+		items:6,
 		loop:false,
 		margin:10,
 		nav:true,
@@ -403,10 +403,6 @@ $(function() {
 				margin:20,
 				items:6
 			},
-			1400:{
-				margin:40,
-				items:7
-			}
 		}
 	});
 	

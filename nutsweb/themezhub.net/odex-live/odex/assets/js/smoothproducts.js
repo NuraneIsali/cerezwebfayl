@@ -79,7 +79,7 @@
 				$(this).parent().find('.sp-current').removeClass();
 				$(this).addClass('sp-current');
 				$(this).parents('.sp-wrap').find('.sp-thumbs').removeClass('sp-tb-active');
-				$(this).parents('.sp-wrap').find('.sp-zoom').remove();
+				
 
 				var currentHeight = $(this).parents('.sp-wrap').find('.sp-large').height(),
 					currentWidth = $(this).parents('.sp-wrap').find('.sp-large').width();
@@ -115,8 +115,6 @@
 			// Zoom In non-touch
 			$(document.body).on('mouseenter', '.sp-non-touch .sp-large', function(event) {
 				var largeUrl = $('a', this).attr('href');
-				$(this).append('<div class="sp-zoom"><img src="' + largeUrl + '"/></div>');
-				$(this).find('.sp-zoom').fadeIn(250);
 				event.preventDefault();
 			});
 
