@@ -3103,6 +3103,7 @@ nav a:hover {
     padding:20px 12px;
     display: inline-block;
     transition: color .3s, background .3s;
+    font-size: 18px;
 }
 
 .navigation-portrait .nav-menu>li>a {
@@ -3830,9 +3831,9 @@ nav a {
     color:#333333 !important;
 }
 .nav-brand img {
-    max-width: 150px;
     position: relative;
-    aspect-ratio: 315/100;
+    aspect-ratio: 180/127;
+    margin-top: 10px;
 }
 
 .nav-menu.nav-menu-social>li.login_click {
@@ -3970,7 +3971,7 @@ a.shop_category {
     padding: 19.8px 0;
     display: flex;
     align-items: center;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 600;
     color: #ffffff !important;
     border-right: 1px solid rgba(255,255,255,0.15);
@@ -5319,6 +5320,12 @@ justify-content: space-between;
     border: 1px dashed #eb4646;
     color: #eb4646;
 }
+.category{
+
+font-size: 22px;
+margin-bottom: 20px;
+
+}
 
 /*------------------- card Cat Box -------------------*/
 .card-bg {
@@ -5622,7 +5629,7 @@ h4.cart_heading {
 }
 .single_search_boxed:first-child{
 	border-top:none;
-    width: 250px;
+    width: 300px;
 }
 .search-sidebar_header {
     display: none;
@@ -5643,7 +5650,6 @@ h4.cart_heading {
     font-size: 18px;
     text-transform: capitalize;
     font-weight: 700;
-    margin-left: -25px;
 }
 .widget-boxed-header h4 a {
     height: 100%;
@@ -5703,13 +5709,14 @@ h4.cart_heading {
 }
 .single_filter_card h5 a.collapsed {
     color: #647b9c;
+    font-size: 16px;
 }
 .single_filter_card h5 a {
     color:#eb4646;
 }
 .logo-pics{
-    width: 315px;
-    aspect-ratio: 315/100;
+    width: 180px;
+    aspect-ratio: 180/127;
 }
 .single_filter_card h5 a .accordion-indicator {
     float: right;
@@ -6108,7 +6115,6 @@ span.org_price sup {
     color: #243444;
     
     margin-top: 50px;
-    margin-left: 60px;
     height: 50px;
     
 }
@@ -9945,10 +9951,10 @@ width: 100%;
     width: 70px;
     padding-left: 10px;
     background: #f3f5f9;
-    font-size: 13px;
+    font-size: 16px;
     border: 1px solid #ebedf1;
     height: 40px;
-    margin-left: -10px;
+    margin-left: 20px;
 }
 button{
     border-radius: 6px;
