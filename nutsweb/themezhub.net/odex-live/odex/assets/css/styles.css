@@ -162,7 +162,7 @@ p {
 }
 .gray{
 	background:#f4f5f7;
-    margin-top: 20px;
+    
 }
 .gray-dark{
 	background:#dce1e7;
@@ -1613,6 +1613,11 @@ a.btn-trans-video i {
   -webkit-transition: 0.2s ease-in;
   -o-transition: 0.2s ease-in;
   transition: 0.2s ease-in; 
+  
+  width: 100px;
+  height: 50px;
+  color: white;
+  font-size: 14px;
 }
   
 .btn-primary:hover, .btn-primary.disabled:hover {
@@ -2418,6 +2423,7 @@ outline:none;
 /*---------- GLobal Settings: Section Heading Style ---------*/
 .sec-heading {
 	margin-bottom:2rem;
+    margin-top: 2rem;
 }
 .sec-heading.lg {
 	margin-bottom:30px;
@@ -2444,6 +2450,7 @@ outline:none;
 	margin-bottom:15px;
 	align-items:center;
 	position:relative;
+    margin-top: 20px;
 }
 .end{
     
@@ -2452,11 +2459,11 @@ outline:none;
     margin-left: 500px;
 }
 .mb-0{
-    margin-bottom: 20px !important;
+    margin-bottom: 0 !important;
 }
 .sec-heading-flex-one{
 	flex:1;
-    margin-top: 20px;
+     margin-top: 0 !important;
 }
 
 .sec-heading-flex-one h2{
